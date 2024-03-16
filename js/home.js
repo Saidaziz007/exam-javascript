@@ -2,7 +2,7 @@ let isLogin = localStorage.getItem("token");
 
 function CheckIsLogin() {
   if (!isLogin) {
-    window.location.replace("../login.html");
+    window.location.replace("../index.html");
   }
 }
 
